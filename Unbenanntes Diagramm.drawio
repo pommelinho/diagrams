@@ -1,9 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T12:41:49.487Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.3.6" etag="3WccnNZBVhOKRWF5zUg2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T13:35:13.206Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="kKp1mih58ba-7N59ik4Z" version="21.3.6" type="github">
   <diagram name="Seite-1" id="kVOeFTWO6oa_xXGF3e9C">
-    <mxGraphModel>
+    <mxGraphModel dx="1509" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-2" value="&lt;b&gt;&lt;u&gt;Abwesenheit erstellen&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QTL_-YQlNlm6OEau9mLx-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="390" />
+              <mxPoint x="370" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-18" value="Gastromatic -Web Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="17" y="250" width="283" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-11" value="Absence" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF66;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-18">
+          <mxGeometry x="63" y="70" width="140" height="152" as="geometry">
+            <mxRectangle x="63" y="70" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-12" value="start: 21.5" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-11">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-13" value="end: 24.5&amp;nbsp;&lt;br&gt;employeeId:&quot;1234&quot;" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-11">
+          <mxGeometry y="52" width="140" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-14" value="state: untreated" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-11">
+          <mxGeometry y="90" width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-16" value="eAuState: pending" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-11">
+          <mxGeometry y="122" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-24" value="AbsenceCreated" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="330" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-25" value="start: 21.5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-24">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-26" value="end: 24.5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-24">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-27" value="" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-24">
+          <mxGeometry y="78" width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-30" value="Absence" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF66;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="763" y="320" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-31" value="start: 21.5" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-30">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-32" value="end: 24.5" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-30">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-33" value="state: untreated" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-30">
+          <mxGeometry y="78" width="140" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-34" value="eAuState: pending" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-30">
+          <mxGeometry y="110" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-35" value="Mapping Service" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="690" y="240" width="283" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-36" value="employeeId: &quot;1234&quot;" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-35">
+          <mxGeometry x="73" y="220" width="140" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
