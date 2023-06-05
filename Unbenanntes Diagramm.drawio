@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-05T15:55:48.284Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dnGVmSuaYhNKpbdTHk1S" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-05T17:19:00.522Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ks-gQAZE1ZHzx2qAChXM" version="21.3.6" type="github">
   <diagram name="Seite-1" id="kVOeFTWO6oa_xXGF3e9C">
-    <mxGraphModel dx="1509" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,14 +99,124 @@
         <mxCell id="QTL_-YQlNlm6OEau9mLx-67" value="EAU Service" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
           <mxGeometry x="1560" y="250" width="400" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="QTL_-YQlNlm6OEau9mLx-71" value="EAURequest_Created" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="530" width="180" height="140" as="geometry" />
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-105" value="&lt;b&gt;&lt;u&gt;Abwesenheit erstellen&lt;/u&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="850" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QTL_-YQlNlm6OEau9mLx-72" value="&lt;b&gt;start&lt;/b&gt;: 21.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;end&lt;/b&gt;:24.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;absenceId&lt;/b&gt;:&quot;1234&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;employeeId&lt;/b&gt;:&quot;abcd&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;sv_nr&lt;/b&gt;:&quot;a1b2&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;state&lt;/b&gt;:&quot;request_to_be_done&quot;&lt;br&gt;&lt;b&gt;requestId&lt;/b&gt;:&quot;xxx&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-71">
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QTL_-YQlNlm6OEau9mLx-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="1120" />
+              <mxPoint x="370" y="1120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QTL_-YQlNlm6OEau9mLx-108" target="QTL_-YQlNlm6OEau9mLx-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="1475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-108" value="Gastromatic -Web Server" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="17" y="980" width="283" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-109" value="Absence" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF66;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-108">
+          <mxGeometry x="63" y="70" width="140" height="90" as="geometry">
+            <mxRectangle x="63" y="70" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-110" value="&lt;b&gt;start:&lt;/b&gt; 21.5&lt;br&gt;&lt;b&gt;end&lt;/b&gt;: 24.5&lt;br&gt;&lt;b&gt;employeeId&lt;/b&gt;:&quot;1234&quot;" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-109">
+          <mxGeometry y="26" width="140" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-111" value="Absence_Created" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1060" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-112" value="&lt;b&gt;start&lt;/b&gt;:21.5&lt;br&gt;&lt;b&gt;end&lt;/b&gt;:25.4&lt;br&gt;&lt;b&gt;employeeId&lt;/b&gt;: &quot;1234&quot;&lt;br&gt;&lt;b&gt;absenceId&lt;/b&gt;:&quot;abcd&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-111">
+          <mxGeometry y="26" width="140" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QTL_-YQlNlm6OEau9mLx-114" target="QTL_-YQlNlm6OEau9mLx-124">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="1475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-131" value="was wird rausgeholt.." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QTL_-YQlNlm6OEau9mLx-113">
+          <mxGeometry x="-0.2054" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-114" value="Mapping Service" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="730" y="980" width="400" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-115" value="EAURequest" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#FFFF66;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-114">
+          <mxGeometry x="20" y="70" width="160" height="130" as="geometry">
+            <mxRectangle x="63" y="70" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-116" value="&lt;b&gt;start&lt;/b&gt;: 21.5&lt;br&gt;&lt;b&gt;end&lt;/b&gt;:24.5&lt;br&gt;&lt;b&gt;absenceId&lt;/b&gt;:&quot;1234&quot;&lt;br&gt;&lt;b&gt;employeeId&lt;/b&gt;:&quot;abcd&quot;&lt;br&gt;&lt;b&gt;sv_nr&lt;/b&gt;:&quot;a1b2&quot;&lt;br&gt;&lt;b&gt;state&lt;/b&gt;:&quot;to_be_acknowledged&quot;&lt;br&gt;abfrage infos todo" style="text;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-115">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="1130" as="sourcePoint" />
+            <mxPoint x="730" y="1130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="1130" />
+              <mxPoint x="670" y="1130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-118" value="Queue Event" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1170" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.018;entryY=0.297;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="QTL_-YQlNlm6OEau9mLx-114" target="QTL_-YQlNlm6OEau9mLx-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="900" as="sourcePoint" />
+            <mxPoint x="1240" y="900" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-120" value="EAURequest_Created" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="840" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-121" value="&lt;b&gt;start&lt;/b&gt;: 21.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;end&lt;/b&gt;:24.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;absenceId&lt;/b&gt;:&quot;1234&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;employeeId&lt;/b&gt;:&quot;abcd&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;sv_nr&lt;/b&gt;:&quot;a1b2&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;state&lt;/b&gt;:&quot;request_to_be_done&quot;&lt;br&gt;&lt;b&gt;requestId&lt;/b&gt;:&quot;xxx&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-120">
           <mxGeometry y="26" width="180" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="QTL_-YQlNlm6OEau9mLx-74" value="Queue Event" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="680" width="70" height="40" as="geometry" />
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="QTL_-YQlNlm6OEau9mLx-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="905" as="targetPoint" />
+            <mxPoint x="1430" y="905.0526315789475" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-123" value="Queue Event" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="990" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-124" value="Gastromatic Mongo DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1430" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.014;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QTL_-YQlNlm6OEau9mLx-126" target="QTL_-YQlNlm6OEau9mLx-128">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="1333" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-126" value="EAU Service" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="980" width="400" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-127" value="EAURequest_Created" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1260" width="180" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-128" value="&lt;b&gt;start&lt;/b&gt;: 21.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;end&lt;/b&gt;:24.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;sv_nr&lt;/b&gt;:&quot;a1b2&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;state&lt;/b&gt;:&quot;request_to_be_done&quot;&lt;br&gt;&lt;b&gt;requestId&lt;/b&gt;:&quot;xxx&quot;&lt;br&gt;&lt;b&gt;request_date:24.5&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="QTL_-YQlNlm6OEau9mLx-127">
+          <mxGeometry y="26" width="180" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-129" value="Queue Event" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1410" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="QTL_-YQlNlm6OEau9mLx-128" target="QTL_-YQlNlm6OEau9mLx-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
