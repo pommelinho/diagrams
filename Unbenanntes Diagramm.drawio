@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T09:43:24.717Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5aUk7KOoShSuHh9YMrI2" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-06T09:44:59.396Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ieFkTLgycCeJ-XB3fdBX" version="21.3.7" type="github">
   <diagram name="Seite-1" id="kVOeFTWO6oa_xXGF3e9C">
-    <mxGraphModel dx="2560" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3359" dy="1335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
         <mxCell id="QTL_-YQlNlm6OEau9mLx-46" value="EAURequest_Created" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1250" y="110" width="180" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="QTL_-YQlNlm6OEau9mLx-49" value="&lt;b&gt;start&lt;/b&gt;: 21.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;end&lt;/b&gt;:24.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;absenceId&lt;/b&gt;:&quot;1234&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;employeeId&lt;/b&gt;:&quot;abcd&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;sv_nr&lt;/b&gt;:&quot;a1b2&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;state&lt;/b&gt;:&quot;request_to_be_done&quot;&lt;br&gt;&lt;b&gt;requestId&lt;/b&gt;:&quot;xxx&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QTL_-YQlNlm6OEau9mLx-46" vertex="1">
+        <mxCell id="QTL_-YQlNlm6OEau9mLx-49" value="&lt;b&gt;start&lt;/b&gt;: 21.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;end&lt;/b&gt;:24.5&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;absenceId&lt;/b&gt;:&quot;1234&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;employeeId&lt;/b&gt;:&quot;abcd&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;sv_nr&lt;/b&gt;:&quot;a1b2&quot;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;state&lt;/b&gt;:&quot;to_be_acknowledged&quot;&lt;br&gt;&lt;b&gt;requestId&lt;/b&gt;:&quot;xxx&quot;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="QTL_-YQlNlm6OEau9mLx-46" vertex="1">
           <mxGeometry y="26" width="180" height="114" as="geometry" />
         </mxCell>
         <mxCell id="QTL_-YQlNlm6OEau9mLx-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" target="QTL_-YQlNlm6OEau9mLx-67" edge="1">
